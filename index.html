@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Web-DEsign</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imgs/Samrajnee(1).jpg" >
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo" style="color: white;">S</div>
+            <div class="logo-text">MyPersonalBrand </div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#work">Work-Exp</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="./contactMe.html" target="_blank" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                  </svg>                  
+            </a>
+        </nav>
+    </header>
+
+    <!-- <main> -->
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm </small>
+                    Samrajnee </h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ullam nobis tempora magni quae ipsam reiciendis sit fugit iste quasi dicta, in voluptatibus. Commodi sunt delectus dolorum veritatis laboriosam repellat!
+                        <span>interests: Lorem ipsum, dolor sit amet consectetur elit. Laboriosam officiis veritatis quaerat quasi quo? Nobis, asperiores nostrum tempora eos incidunt deserunt accusantium provident ipsum, enim blanditiis quod vel iure possimus!</span>
+                    </p>
+                    <div class="class-to-action">
+                        <a href="#" class="button black" style="margin-top: 10px;"> 
+                            <!-- ADD RESUME HERE -->
+                            View Resume
+                        </a>
+                        <a href="mailto:samrajnee30@gmail.com" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Samrajnee">
+                            <img src="./imgs/github.png" alt="GitHub" width="48">
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/linkedin.png" alt="GitHub" width="48">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/Samrajnee_drei_-removebg-preview.png" alt="Samrajnee Bhattacharjee" width="100%">
+            </div>
+        </section>
+    <!-- </main> -->
+
+
+    <section class="logos container">
+        <div class="marquee">
+            <div class="track">
+                <img src="./imgs/html.png" alt="HTML" width="128" />
+                <img src="./imgs/css.png" alt="CSS" width="128" />
+                <img src="./imgs/javascript.png" alt="JS" width="128" />
+                <img src="./imgs/sass.png" width="128" alt="Sass" />
+                <img src="./imgs/react.png" width="128" alt="React" />
+                <img src="./imgs/nextjs-icon.webp" width="128" alt="Next JS" />
+                <img src="./imgs/azure.png" width="128" alt="Azure" />
+                <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                <img src="./imgs/python.png" width="128" alt="Python" />
+                <img src="./imgs/html.png" alt="HTML" width="128" />
+                <img src="./imgs/css.png" alt="CSS" width="128" />
+                <img src="./imgs/javascript.png" alt="JS" width="128" />
+                <img src="./imgs/sass.png" width="128" alt="Sass" />
+                <img src="./imgs/react.png" width="128" alt="React" />
+                <img src="./imgs/nextjs-icon.webp" width="128" alt="Next JS" />
+                <img src="./imgs/azure.png" width="128" alt="Azure" />
+                <img src="./imgs/python.png" width="128" alt="Python" />
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills container">
+        <h2>
+            <small>About me</small>
+            Skills
+        </h2>
+        <div class="holder-blue">
+            <div class="left-column">
+                <h3>Front-end</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>javascript</li>
+                    <li>Vue</li>
+                    <li>React</li>
+                </ul>
+                <h3>Back-end</h3>
+                <ul>
+                    <li>Nodejs</li>
+                    <li>Express</li>
+                    <li>Python</li>
+                    <li>php</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="right-column">
+                <h3>A bit about me</h3>
+                <p>Paragraph about me...</p>
+                <p>2nd Paragraph about me....</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="work" class="work-experience container">
+        <h2>
+            <small>Recent</small>
+            Work Experience
+        </h2>
+        <div class="jobs">
+            <article>
+                <figure>
+                    <div><img src="./imgs/intel-samrajnee.jpg" alt="WorkPlace-1" width="100%">
+                        <figcaption>WorkPlace-1</figcaption>
+                    </div>
+                </figure>
+                <h3>Intel Workshop (AL ML)</h3>
+                <div>2000-2020</div>
+                <p>This is an example</p>
+            </article>
+            <article>
+                <figure>
+                    <div><img src="./imgs/mun-samrajnee.jpg" alt="WorkPlace-2" width="100%">
+                        <figcaption>WorkPlace-2</figcaption>
+                    </div>
+                </figure>
+                <h3>Model United Nations</h3>
+                <div>2000-2020</div>
+                <p>This is an example</p>
+            </article>
+            <article>
+                <figure>
+                    <div><img src="./imgs/Samrajnee-Webel.jpg" alt="WorkPlace-3" width="100%">
+                        <figcaption>WorkPlace-3</figcaption>
+                    </div>
+                </figure>
+                <h3>Webel Enterprises</h3>
+                <div>2000-2020</div>
+                <p>This is an example</p>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="projects" class="bento container">
+        <h2>
+            <small>
+                previous
+            </small>
+            completed projects
+        </h2>
+        <div class="bento-grid">
+            <a href="#" class="bento-item">
+                <img  src="./imgs/bento-1.jpg" alt="" width="100%">
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./imgs/bento-2.jpg" alt="" width="100%">
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./imgs/bento-3.jpg" alt="" width="100%">
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./imgs/bento-5.jpg" alt="" width="100%">
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./imgs/bento-6.jpg" alt="" width="100%">
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./imgs/bento-7.jpg" alt="" width="100%">
+            </a>
+        </div>
+    </section>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "bsWThVd69bWqNyhoV9QTB",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="bsWThVd69bWqNyhoV9QTB"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+</body>
+</html>

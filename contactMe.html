@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./contactMe.CSS">
+</head>
+<body>
+    <div class="contact-container">
+        <form name="submit-to-google-sheet">
+            <h2 style="margin-bottom: 20px ;">Contact Me</h2>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" required placeholder="Enter Name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" required placeholder="Enter Email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea name="message" rows="5" required placeholder="Write your Message"></textarea>
+            </div>
+            <button type="submit" style="margin-top: 20px;">Send Message</button>
+            <br>
+
+            <span id="success"></span>
+        </form>
+    </div>
+    <script src="./form-handler.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./imgs/WhatsApp\ Image\ 2024-10-24\ at\ 15.16.41_3699ab39.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 600px; /* Increased max-width for larger view on PC */
+    padding: 40px; /* Increased padding for more spacious feel */
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.input-group input,
+.input-group textarea {
+    margin-bottom:15px;
+    width: 100%;
+    padding: 15px; /* Increased padding for larger fields */
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    resize: none;
+}
+
+.input-group label {
+    font-size: 18px; /* Increased label size */
+}
+
+button {
+    padding: 20px 40px; /* Larger button */
+    width: 100%;
+    background: #6c7a89;
+    border: none;
+    border-radius: 25px; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px; /* Larger font size for button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background: #95a5a6; /* Lighter shade on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Optional: Custom media query for larger screens */
+@media (min-width: 1024px) {
+    .contact-container {
+        max-width: 700px; /* Even larger on wide PC screens */
+        margin-right: 600px;
+    }
+
+    h2 {
+        font-size: 28px; /* Larger title size */
+    }
+
+    input, textarea, button {
+        font-size: 20px; /* Larger form elements */
+    }
+}
